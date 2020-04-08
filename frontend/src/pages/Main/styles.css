@@ -1,0 +1,113 @@
+.main-container {
+  width: 100%;
+  max-width: 1180px;
+  padding: 0 30px;
+  margin: 32px auto;
+}
+
+.main-container header {
+  display: flex;
+  align-items: center;
+}
+
+.main-container header span {
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+.main-container header img {
+  height: 64px;
+}
+
+.main-container header a {
+  width: 260px;
+  margin-left: auto;
+  margin-top: 0;
+}
+
+.main-container header button {
+  height: 60px;
+  width: 60px;
+  border-radius: 4px;
+  border: 1px solid #dcdce6;
+  background: transparent;
+  margin-left: 6px;
+  transition: border-color 0.2s;
+}
+
+.main-container header button:hover {
+  border-color: #999;
+}
+
+.main-container h1 {
+  margin-top: 60px;
+  margin-bottom: 24px;
+}
+
+.main-container option {
+  padding: 0 15px;
+}
+
+.main-container ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 24px;
+  list-style: none;
+}
+
+.main-container ul li {
+  background: #fff;
+  padding: 24px;
+  border-radius: 8px;
+  position: relative;
+  cursor: pointer;
+}
+
+.main-container ul label input {
+  display: none;
+  cursor: pointer;
+}
+
+.main-container ul label input:checked + li {
+  box-shadow: 0 0 2px 2px #ff5c5c;
+  cursor: pointer;
+}
+
+.main-container ul li strong {
+  display: block;
+  margin-bottom: 16px;
+  color: #41414d;
+}
+
+.main-container ul li p + strong {
+  margin-top: 32px;
+}
+
+.main-container ul li p {
+  color: #737380;
+  line-height: 21px;
+  font-size: 16px;
+}
+
+.main-container .filter {
+  display: flex;
+  float: right;
+  margin-top: 15px;
+  align-items: center;
+  margin-left: auto;
+}
+
+.main-container .filter p {
+  font-size: 20px;
+  font-weight: 500;
+  margin-right: 5px;
+}
+
+.main-container .filter select {
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid #dcdce6;
+  padding: 0 20px;
+  cursor: pointer;
+}
